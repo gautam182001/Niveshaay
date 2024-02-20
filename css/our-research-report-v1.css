@@ -1,0 +1,40 @@
+.research-services-section{
+    padding: 50px 0 0;
+}
+.research-services-section .recommendtion-list{
+    justify-content: center;
+}
+.research-services-section .recommendtion-list .item{
+    flex: 0 0 30%;
+    max-width: 30%;
+}
+
+.niveshaay-research-block.featured-on.niveshaay-section-paddding.sample-research{
+    padding: 50px 0;
+}
+
+
+@media (max-width:1024px) {
+    
+}
+@media (max-width:991px) {
+    .research-services-section .recommendtion-list .item{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width:767px) {
+    .research-services-section{
+        padding: 30px 0 0;
+    }
+    .niveshaay-research-block.featured-on.niveshaay-section-paddding.sample-research{
+        padding: 30px 0;
+    }
+}
+@media (max-width:575px) {
+    .research-services-section .recommendtion-list .item{
+        flex: 0 0 100%;
+        max-width: 100%;
+    } 
+}
