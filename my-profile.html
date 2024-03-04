@@ -6,16 +6,17 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="shortcut icon" href="https://www.niveshaay.com/favicon.ico" />
+  <link rel="shortcut icon" href="images/favicon.ico" />
   <link rel="stylesheet" type="text/css" href="css/main.css" />
-
 </head>
 
-<body class="after-login">
-
+<body data-barba="wrapper" class="after-login ">
+  <div class="layer-transition">
+    <div class="layer behind"></div>
+    <div class="layer above"></div>
+  </div>
   <div id="site-wrap" class="site">
     <div id="header-wrap" class="is-clearfix">
-
       <header class="niveshaay-header">
         <div class="container">
           <div class="header-wrapper">
@@ -28,7 +29,7 @@
               <div class="navigation-wrapper">
                 <nav class="bottom-header-wrapper">
                   <ul>
-                    <li>
+                    <li class="active">
                       <a href="index.html" title="Home">Home</a>
                     </li>
                     <li>
@@ -40,7 +41,7 @@
                     <li>
                       <a href="our-strategy.html" title="Research Process">Our Strategy </a>
                     </li>
-                    <li class="active">
+                    <li>
                       <a href="research_reports.html" title="Our Research">Our Research</a>
                     </li>
                     <li>
@@ -82,7 +83,6 @@
           </div>
         </div>
       </header>
-
     </div>
     <div id="login-modal" class="custom-modal" data-tab="login-modal">
       <div class="modal-backdrop"></div>
@@ -106,14 +106,14 @@
                       <input id="email_or_phone_no" name="email" type="text" class="form-control"
                         placeholder="Enter email" required />
 
-                      <span style="color: red;" id="login-modal-email-error"></span>
+                      <span style="color: red" id="login-modal-email-error"></span>
                     </div>
                     <div class="form-group">
                       <label for="password">Password</label>
                       <input id="password" name="password" type="password" class="form-control" placeholder="**********"
                         required />
 
-                      <span style="color: red;" id="login-modal-error"></span>
+                      <span style="color: red" id="login-modal-error"></span>
                     </div>
                     <div class="form-group has-checkbox">
                       <span class="password-help"><a href="forgot-password.html" title="Forgot Password">Forgot
@@ -137,280 +137,150 @@
       </div>
     </div>
     <div class="main-wrapper">
+
       <section class="inner-page-banner-section">
+
         <div class="bg-img">
         </div>
         <div class="niveshaay-container">
           <div class="inner-banner-content">
-            <h1>Past Recommendation</h1>
+            <h1> My Profile</h1>
           </div>
         </div>
       </section>
 
       <div id="content-main-wrap" class="is-clearfix">
-        <div id="content-area" class="site-content-area">
+        <section class="profile-section">
+          <div class="niveshaay-container">
+            <div class="profile-info">
+              <div class="profile-info-wrapper">
+                <em class="profile-image">
+                  <img src="https://web16.anasource.com/team7/Niveshaay/public/images/blankuser.jpeg"
+                    alt="profile-image">
+                 
+                </em>
+                <div class="title-wrapper">
+                  <h2>swati raiyani </h2>
+                  <a href="#" class="modal-link" data-link="edit-profile-popup" title="Edit">
 
-          <section class="recommendtion-table-section">
-            <div class="niveshaay-container">
-              <div class="recommendtion-table-heading">
-
-                <div class="search-box">
-                  <input type="text" placeholder="Search past recommendation..." id="past-recommendations">
-                  <img src="./images/search-img.svg" alt="search-img">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 453.8 453.7"
+                      style="enable-background:new 0 0 453.8 453.7;" xml:space="preserve" height="24" width="24">
+                      <style type="text/css">
+                        .st0 {
+                          fill: #83B645;
+                        }
+                      </style>
+                      <path class="st0" d="M401.6,18.3c-24.4-24.4-63.9-24.4-88.3,0l-22.1,22.2L56,275.6l-0.5,0.5c-0.1,0.1-0.1,0.3-0.3,0.3
+                              c-0.3,0.4-0.6,0.7-0.9,1.1c0,0.1-0.1,0.1-0.1,0.3c-0.3,0.4-0.4,0.6-0.6,1c-0.1,0.1-0.1,0.2-0.2,0.4c-0.1,0.4-0.3,0.6-0.4,1
+                              c0,0.1-0.1,0.1-0.1,0.3l-52.2,157c-1.5,4.5-0.4,9.4,3,12.7c2.4,2.3,5.6,3.6,8.9,3.6c1.4,0,2.7-0.2,4-0.6l156.8-52.3
+                              c0.1,0,0.1,0,0.3-0.1c0.4-0.1,0.8-0.3,1.1-0.5c0.1,0,0.2-0.1,0.3-0.1c0.4-0.3,0.9-0.5,1.2-0.8c0.4-0.2,0.8-0.6,1.1-0.9
+                              c0.1-0.1,0.2-0.1,0.2-0.3c0.1-0.1,0.4-0.2,0.5-0.5l257.4-257.4c24.4-24.4,24.4-63.9,0-88.3L401.6,18.3z M169.4,371.4l-86.9-86.9
+                              L300,67l86.9,86.9L169.4,371.4z M70.2,307.6l75.9,75.9l-114,38L70.2,307.6z M417.9,122.8l-13.2,13.4l-86.9-86.9l13.4-13.4
+                              c14.6-14.6,38.3-14.6,52.9,0l34,34C432.5,84.5,432.5,108.2,417.9,122.8z"></path>
+                    </svg>
+                  </a>
                 </div>
-
+                <ul class="contact-info">
+                  <li>
+                    <a href="mailto:john.doe22@gmail.com" title="Mail Us">swati@gmail.com</a>
+                  </li>
+                  <li>
+                    <a href="tel:+13375506798" title="Call Us">9898945309</a>
+                  </li>
+                </ul>
               </div>
-              <div class="table-outer">
-                <table id="past-recommendation" class="table dashboard-table" style="width:100%">
-                  <thead>
-                    <tr>
-                      <th>Sr. No<span></span> </th>
-                      <th>Company Name <span></span> </th>
-                      <th>Initiating Buy Date <span></span> </th>
-                      <th>Price as on Recommended Date<span></span> </th>
-                      <th>Exit Date <span></span> </th>
-                      <th>Exit Price <span></span> </th>
-                      <th>View <span></span></th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>01</td>
-                      <td>Lorem Ipsum</td>
-                      <td>Microsoft Windows</td>
-                      <td>653.2</td>
-                      <td>24/08/2023</td>
-                      <td>45.26</td>
-                      <td> <a><img src="./images/view-icon.svg" alt="view-icon"> </a> </td>
-                    </tr>
-                    <tr>
-                      <td>01</td>
-                      <td>Lorem Ipsum</td>
-                      <td>Microsoft Windows</td>
-                      <td>653.2</td>
-                      <td>24/08/2023</td>
-                      <td>45.26</td>
-                      <td> <a><img src="./images/view-icon.svg" alt="view-icon"> </a> </td>
-                    </tr>
-                    <tr>
-                      <td>01</td>
-                      <td>Lorem Ipsum</td>
-                      <td>Microsoft Windows</td>
-                      <td>653.2</td>
-                      <td>24/08/2023</td>
-                      <td>45.26</td>
-                      <td> <a><img src="./images/view-icon.svg" alt="view-icon"> </a> </td>
-                    </tr>
-                    <tr>
-                      <td>01</td>
-                      <td>Lorem Ipsum</td>
-                      <td>Microsoft Windows</td>
-                      <td>653.2</td>
-                      <td>24/08/2023</td>
-                      <td>45.26</td>
-                      <td> <a><img src="./images/view-icon.svg" alt="view-icon"> </a> </td>
-                    </tr>
-                    <tr>
-                      <td>02</td>
-                      <td>Lorem Ipsum</td>
-                      <td>Microsoft Windows</td>
-                      <td>653.2</td>
-                      <td>24/08/2023</td>
-                      <td>45.26</td>
-                      <td> <a><img src="./images/view-icon.svg" alt="view-icon"> </a> </td>
-                    </tr>
-                    <tr>
-                      <td>03</td>
-                      <td>Lorem Ipsum</td>
-                      <td>Microsoft Windows</td>
-                      <td>653.2</td>
-                      <td>24/08/2023</td>
-                      <td>45.26</td>
-                      <td> <a><img src="./images/view-icon.svg" alt="view-icon"> </a> </td>
-                    </tr>
-                    <tr>
-                      <td>04</td>
-                      <td>Lorem Ipsum</td>
-                      <td>Microsoft Windows</td>
-                      <td>653.2</td>
-                      <td>24/08/2023</td>
-                      <td>45.26</td>
-                      <td> <a><img src="./images/view-icon.svg" alt="view-icon"> </a> </td>
-                    </tr>
-                    <tr>
-                      <td>05</td>
-                      <td>Lorem Ipsum</td>
-                      <td>Microsoft Windows</td>
-                      <td>653.2</td>
-                      <td>24/08/2023</td>
-                      <td>45.26</td>
-                      <td> <a><img src="./images/view-icon.svg" alt="view-icon"> </a> </td>
-                    </tr>
-                    <tr>
-                      <td>06</td>
-                      <td>Lorem Ipsum</td>
-                      <td>Microsoft Windows</td>
-                      <td>653.2</td>
-                      <td>24/08/2023</td>
-                      <td>45.26</td>
-                      <td> <a><img src="./images/view-icon.svg" alt="view-icon"> </a> </td>
-                    </tr>
-                    <tr>
-                      <td>07</td>
-                      <td>Lorem Ipsum</td>
-                      <td>Microsoft Windows</td>
-                      <td>653.2</td>
-                      <td>24/08/2023</td>
-                      <td>45.26</td>
-                      <td> <a><img src="./images/view-icon.svg" alt="view-icon"> </a> </td>
-                    </tr>
-
-                    <tr>
-                      <td>08</td>
-                      <td>Lorem Ipsum</td>
-                      <td>Microsoft Windows</td>
-                      <td>653.2</td>
-                      <td>24/08/2023</td>
-                      <td>45.26</td>
-                      <td> <a><img src="./images/view-icon.svg" alt="view-icon"> </a> </td>
-                    </tr>
-                    <tr>
-                      <td>09</td>
-                      <td>Lorem Ipsum</td>
-                      <td>Microsoft Windows</td>
-                      <td>653.2</td>
-                      <td>24/08/2023</td>
-                      <td>45.26</td>
-                      <td> <a><img src="./images/view-icon.svg" alt="view-icon"> </a> </td>
-                    </tr>
-                    <tr>
-                      <td>10</td>
-                      <td>Lorem Ipsum</td>
-                      <td>Microsoft Windows</td>
-                      <td>653.2</td>
-                      <td>24/08/2023</td>
-                      <td>45.26</td>
-                      <td> <a><img src="./images/view-icon.svg" alt="view-icon"> </a> </td>
-                    </tr>
-                    <tr>
-                      <td>11</td>
-                      <td>Lorem Ipsum</td>
-                      <td>Microsoft Windows</td>
-                      <td>653.2</td>
-                      <td>24/08/2023</td>
-                      <td>45.26</td>
-                      <td> <a><img src="./images/view-icon.svg" alt="view-icon"> </a> </td>
-                    </tr>
-                    <tr>
-                      <td>12</td>
-                      <td>Lorem Ipsum</td>
-                      <td>Microsoft Windows</td>
-                      <td>653.2</td>
-                      <td>24/08/2023</td>
-                      <td>45.26</td>
-                      <td> <a><img src="./images/view-icon.svg" alt="view-icon"> </a> </td>
-                    </tr>
-                    <tr>
-                      <td>01</td>
-                      <td>Lorem Ipsum</td>
-                      <td>Microsoft Windows</td>
-                      <td>653.2</td>
-                      <td>24/08/2023</td>
-                      <td>45.26</td>
-                      <td> <a><img src="./images/view-icon.svg" alt="view-icon"> </a> </td>
-                    </tr>
-                    <tr>
-                      <td>01</td>
-                      <td>Lorem Ipsum</td>
-                      <td>Microsoft Windows</td>
-                      <td>653.2</td>
-                      <td>24/08/2023</td>
-                      <td>45.26</td>
-                      <td> <a><img src="./images/view-icon.svg" alt="view-icon"> </a> </td>
-                    </tr>
-                    <tr>
-                      <td>01</td>
-                      <td>Lorem Ipsum</td>
-                      <td>Microsoft Windows</td>
-                      <td>653.2</td>
-                      <td>24/08/2023</td>
-                      <td>45.26</td>
-                      <td> <a><img src="./images/view-icon.svg" alt="view-icon"> </a> </td>
-                    </tr>
-                    <tr>
-                      <td>01</td>
-                      <td>Lorem Ipsum</td>
-                      <td>Microsoft Windows</td>
-                      <td>653.2</td>
-                      <td>24/08/2023</td>
-                      <td>45.26</td>
-                      <td> <a><img src="./images/view-icon.svg" alt="view-icon"> </a> </td>
-                    </tr>
-                    <tr>
-                      <td>01</td>
-                      <td>Lorem Ipsum</td>
-                      <td>Microsoft Windows</td>
-                      <td>653.2</td>
-                      <td>24/08/2023</td>
-                      <td>45.26</td>
-                      <td> <a><img src="./images/view-icon.svg" alt="view-icon"> </a> </td>
-                    </tr>
-                    <tr>
-                      <td>01</td>
-                      <td>Lorem Ipsum</td>
-                      <td>Microsoft Windows</td>
-                      <td>653.2</td>
-                      <td>24/08/2023</td>
-                      <td>45.26</td>
-                      <td> <a><img src="./images/view-icon.svg" alt="view-icon"> </a> </td>
-                    </tr>
-                    <tr>
-                      <td>01</td>
-                      <td>Lorem Ipsum</td>
-                      <td>Microsoft Windows</td>
-                      <td>653.2</td>
-                      <td>24/08/2023</td>
-                      <td>45.26</td>
-                      <td> <a><img src="./images/view-icon.svg" alt="view-icon"> </a> </td>
-                    </tr>
-                    <tr>
-                      <td>01</td>
-                      <td>Lorem Ipsum</td>
-                      <td>Microsoft Windows</td>
-                      <td>653.2</td>
-                      <td>24/08/2023</td>
-                      <td>45.26</td>
-                      <td> <a><img src="./images/view-icon.svg" alt="view-icon"> </a> </td>
-                    </tr>
-                    <tr>
-                      <td>01</td>
-                      <td>Lorem Ipsum</td>
-                      <td>Microsoft Windows</td>
-                      <td>653.2</td>
-                      <td>24/08/2023</td>
-                      <td>45.26</td>
-                      <td> <a><img src="./images/view-icon.svg" alt="view-icon"> </a> </td>
-                    </tr>
-
-                  </tbody>
-                </table>
-                <div class="pagination-wrap">
-                  <div class="data_info"> 1-10 of 20</div>
-                  <div class="pagination">
-                    <a class="paginate_button first disabled" title="First"><img src="./images/pagination-bg-arrow.svg"
-                        alt="paginate_button"> </a>
-                    <a class="paginate_button previous disabled" title="Previous"> <img
-                        src="./images/pagination-sm-arrow.svg" alt="paginate_button"></a>
-                    <a class="paginate_button next" title="Next"> <img src="./images/pagination-sm-arrow.svg"
-                        alt="paginate_button"></a>
-                    <a class="paginate_button last" title="Last"><img src="./images/pagination-bg-arrow.svg"
-                        alt="paginate_button"></a>
+              <div class="table-outer-wrapper">
+                <div class="outer-wrap">
+                  <h3>Current Subscriptions</h3>
+                  <div class="table-wrapper">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>Product List</th>
+                          <th>Start Date</th>
+                          <th>End Date</th>
+                          <th>Amount Paid</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>descritpion</td>
+                          <td>2023-10-01</td>
+                          <td>2023-10-31</td>
+                          <td> INR</td>
+                        </tr>
+                        <tr>
+                          <td>descritpion</td>
+                          <td>2023-10-01</td>
+                          <td>2023-10-31</td>
+                          <td> INR</td>
+                        </tr>
+                        <tr>
+                          <td>descritpion</td>
+                          <td>2023-10-01</td>
+                          <td>2023-10-31</td>
+                          <td> INR</td>
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
                 </div>
+              <div class="outer-wrap">
+                <h3>Past Subscriptions</h3>
+                <div class="table-wrapper">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>Product List</th>
+                        <th>Start Date</th>
+                        <th>End Date</th>
+                        <th>Amount Paid</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>descritpion</td>
+                        <td>2023-10-01</td>
+                        <td>2023-10-31</td>
+                        <td> INR</td>
+                      </tr>
+                      <tr>
+                        <td>descritpion</td>
+                        <td>2023-10-01</td>
+                        <td>2023-10-31</td>
+                        <td> INR</td>
+                      </tr>
+                      <tr>
+                        <td>descritpion</td>
+                        <td>2023-10-01</td>
+                        <td>2023-10-31</td>
+                        <td> INR</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+               
               </div>
             </div>
-          </section>
-
+          </div>
+        </section>
+      </div>
+    </div>
+    <div id="home-video-modal" class="custom-modal home-video-modal" data-tab="home-video-modal">
+      <div class="modal-backdrop"></div>
+      <div class="modal-content">
+        <div class="modal-content-inner">
+          <div class="video-wrapper modal-body">
+            <a href="#" title="close" class="modal-close">
+              <img src="images/close.svg" alt="close-btn" />
+            </a>
+            <div class="video-inner-wrapper">
+              <!-- <iframe width="100%" height="225" data-src="https://www.youtube.com/embed/t8LXvzDmoy8" allowfullscreen></iframe> -->
+              <iframe height="225" allowfullscreen></iframe>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -548,19 +418,15 @@
         </div>
       </div>
     </div>
-
   </div>
   <script defer type="text/javascript" src="js/jquery.min.js"></script>
   <script defer type="text/javascript" src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script defer type="text/javascript" src="js/dataTables.fixedColumns.min.js"></script>
-  <script defer type="text/javascript" src="js/datatables.min.js"></script>
   <script defer type="text/javascript" src="js/select2.min.js"></script>
   <script defer type="text/javascript" src="js/slick.min.js"></script>
+  <script defer type="text/javascript" src="js/aos.js"></script>
   <script defer type="text/javascript" src="js/jquery.cookie.js"></script>
   <script defer type="text/javascript" class="general" src="js/general.js"></script>
   <script defer src="js/toastr.min.js"></script>
-
-
 </body>
 
 </html>
