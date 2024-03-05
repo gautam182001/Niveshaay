@@ -229,7 +229,6 @@
 
 /* edit profile popup */
 .custom-modal.edit-profile-popup .modal-body .edit-profile-wrapper {
-    padding: 21px 30px 30px;
     background-color: var(--white);
 }
 
@@ -237,8 +236,8 @@
     display: block;
     text-align: center;
     font-size: 22px;
-    font-weight: 800;
-    margin-bottom: 22px;
+    font-weight: 600;
+    margin-bottom: 18px;
 }
 
 .custom-modal.edit-profile-popup .modal-body .edit-profile-wrapper .profile-image-wrapper {
@@ -284,7 +283,6 @@
     bottom: 0;
     padding: 0;
     opacity: 0;
-    cursor: pointer;
     z-index: 2;
 }
 
@@ -463,9 +461,7 @@
         padding: 15px;
     }
 
-    .custom-modal.edit-profile-popup .modal-body .edit-profile-wrapper {
-        padding: 20px;
-    }
+
 
     .quaterly-updates-modal .quaterly-updates-block .table-wrapper thead th, .quaterly-updates-modal .quaterly-updates-block .table-wrapper tbody td {
         padding: 15px 12px !important;

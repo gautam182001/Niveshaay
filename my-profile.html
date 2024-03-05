@@ -89,7 +89,7 @@
       <div class="modal-content">
         <div class="modal-content-inner">
           <div class="modal-body custom-form-section">
-            <a href="#" title="close" class="modal-close">
+            <a href="#" title="Close" class="modal-close">
               <img src="images/close.svg" alt="close-btn" />
             </a>
             <div class="form-wrapper">
@@ -132,6 +132,52 @@
                 </form>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="edit-profile-popup" class="custom-modal edit-profile-popup" data-tab="edit-profile-popup">
+      <div class="modal-backdrop"></div>
+      <div class="modal-content">
+        <div class="modal-content-inner">
+          <div class="modal-body custom-form-section">
+            <a href="#" title="Close" class="modal-close">
+              <img src="https://web16.anasource.com/team7/Niveshaay/public/images/close.svg" alt="close-btn">
+            </a>
+            <div class="edit-profile-wrapper form-wrapper">
+                        <span class="form-title">Edit Profile</span>
+                        <form id="edit-profile-form" method="POST" action="https://web16.anasource.com/team7/Niveshaay/public/edit/profile" enctype="multipart/form-data"><input type="hidden" name="_token" value="7nbNmAYYN2TyKC7uHNhfYDKgEBJfllxVFzXW55QK">                        <div class="form-outer-wrapper">
+                                <div class="profile-image-wrapper">
+                                    <i class="image-wrapper">
+                                        <img src="https://web16.anasource.com/team7/Niveshaay/public/images/blankuser.jpeg" alt="profile-image">
+                                        <span class="edit-photo form-group">
+                                            <input type="file" name="profile_photo">
+                                            <img src="https://web16.anasource.com/team7/Niveshaay/public/images/camera-icon.svg" alt="camera-icon">
+                                        </span>
+                                    </i>
+                                </div>
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input id="name" name="name" type="text" class="form-control" placeholder="John Doe" value="swati raiyani">		                    
+                                    <span style="color:red" id="profile-modal-name-error"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input id="email" name="email" type="email" class="form-control" placeholder="john.dow22@gmail.com" value="swati@gmail.com" readonly="">			
+                                    <span style="color:red" id="profile-modal-email-error"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input id="phone" name="phone_no" type="text" class="form-control" placeholder="+1 337-550-6798" value="9898945309">			
+                                    <span style="color:red" id="profile-modal-phone-error"></span>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-green">Save</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
           </div>
         </div>
       </div>
@@ -273,7 +319,7 @@
       <div class="modal-content">
         <div class="modal-content-inner">
           <div class="video-wrapper modal-body">
-            <a href="#" title="close" class="modal-close">
+            <a href="#" title="Close" class="modal-close">
               <img src="images/close.svg" alt="close-btn" />
             </a>
             <div class="video-inner-wrapper">
