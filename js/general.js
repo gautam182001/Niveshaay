@@ -72,6 +72,7 @@ function equalHeight() {
     jQuery(
       ".research-card-section .white-card .card-content-wrapper"
     ).equalHeight();
+
     // jQuery(
     //   ".recommendtion-table-section .company-logo-list-wrap .company-logo-list .company-logo a"
     // ).equalHeight();
