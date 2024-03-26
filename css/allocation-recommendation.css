@@ -61,6 +61,30 @@ font-size: 25px;
 font-weight: 500;
 line-height: 1.1;
 }
+.table-outer .sr-no{
+max-width: 85px !important;
+width: 85px !important;
+}
+.table-outer .date{
+    max-width: 110px;
+    width: 110px !important;
+}
+.table-outer .s-code{
+    max-width: 120px;
+    width: 120px !important;
+}
+.table-outer .price-on-recomandation-date{
+    max-width: 190px;
+    width: 190px !important;
+}
+.table-outer .view{
+    max-width: 80px;
+    width: 80px !important;
+}
+.table-outer .exit-price{
+    max-width: 115px;
+    width: 115px !important;
+}
 @media (max-width:991px) {
     .update-section { padding: 50px 0; }
     .recommendtion-table-section { padding: 50px 0; }

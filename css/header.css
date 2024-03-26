@@ -331,7 +331,6 @@ body.footer-reveal #footer-bottom-wrap, body.footer-reveal #footer-wrap { width:
 .header-wrapper .profile-block .dropdown-menu li a:hover { background-color: #83b645; color: #fff; }
 .header-wrapper .profile-block .dropdown-menu li:last-child { margin-left: 0 !important; }
 .site-footer .column-4 .widget-form iframe { width: 100%; }
-iframe { width: 100%; }
 @media (max-width:1320px) {
     .niveshaay-header .header-wrapper .navigation-wrapper .bottom-header-wrapper>ul li+li { margin-left: 30px; }
 }

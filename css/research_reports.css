@@ -1,21 +1,20 @@
-
-
-ol > li {
+ol>li {
     counter-increment: item;
 }
 
-ol > li:first-child {
-  counter-reset: item;
+ol>li:first-child {
+    counter-reset: item;
 }
 
-ol ol > li {
+ol ol>li {
     display: block;
 }
 
-ol ol > li:before {
+ol ol>li:before {
     content: counters(item, ".") ". ";
     margin-left: -20px;
 }
+
 .pagination-wrap {
     display: flex;
     justify-content: flex-end;
@@ -63,90 +62,90 @@ ol ol > li:before {
     padding-top: 60px;
 }
 
- .recommendtion-list {
+.recommendtion-list {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -15px;
     margin-bottom: -20px;
 }
 
- .recommendtion-list .item {
+.recommendtion-list .item {
     flex: 0 0 25%;
     max-width: 25%;
     padding: 0 15px;
     margin-bottom: 20px;
 }
 
- .recommendtion-list .item-content-wrap {
+.recommendtion-list .item-content-wrap {
     padding: 20px;
     color: var(--white);
     border: 1px solid var(--white8);
-    
+height: 100%;
     border-radius: 4px;
     transition: all 0.5s;
     display: block;
-box-shadow: 2px 2px 10px 1px rgba(210, 210, 210, 0.3);
+    box-shadow: 2px 2px 10px 1px rgba(210, 210, 210, 0.3);
 
 }
 
- .recommendtion-list .item-content-wrap:hover {
+.recommendtion-list .item-content-wrap:hover {
     background-color: var(--green);
 }
 
- .recommendtion-list .item-content-wrap:hover svg path {
+.recommendtion-list .item-content-wrap:hover svg path {
     transition: all 0.5s;
 }
 
- .recommendtion-list .item-content-wrap .img-wrap svg {
+.recommendtion-list .item-content-wrap .img-wrap svg {
     height: 60px;
     width: 60px;
     transition: all 0.5s;
 }
 
- .recommendtion-list .item-content-wrap:hover svg path {
+.recommendtion-list .item-content-wrap:hover svg path {
     fill: var(--white);
 }
 
- .recommendtion-list .item.stroke .item-content-wrap:hover svg path {
+.recommendtion-list .item.stroke .item-content-wrap:hover svg path {
     fill: none;
     stroke: var(--white);
 }
 
- .recommendtion-list .item.stroke .item-content-wrap:hover i svg path {
+.recommendtion-list .item.stroke .item-content-wrap:hover i svg path {
     fill: var(--white);
     stroke: none;
 }
 
- .recommendtion-list .item-content-wrap .content-wrap i {
+.recommendtion-list .item-content-wrap .content-wrap i {
     transition: all 0.5s;
     text-align: end;
 }
 
- .recommendtion-list .item-content-wrap .content-wrap i img {
+.recommendtion-list .item-content-wrap .content-wrap i img {
     height: 11px;
     width: 22px;
 }
 
- .recommendtion-list .item-content-wrap:hover .content-wrap i {
+.recommendtion-list .item-content-wrap:hover .content-wrap i {
     transform: translateX(5px);
 }
 
- .recommendtion-list .item-content-wrap .img-wrap {
+.recommendtion-list .item-content-wrap .img-wrap {
     margin-bottom: 10px;
 }
 
- .recommendtion-list .content-wrap {
+.recommendtion-list .content-wrap {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
     color: var(--white);
 }
 
- .recommendtion-list .item-content-wrap:hover .content-wrap p {
+.recommendtion-list .item-content-wrap:hover .content-wrap p {
     color: var(--white);
 }
 
- .recommendtion-list .content-wrap p {
+.recommendtion-list .content-wrap p {
     font-size: 19px;
     line-height: 1.15;
     padding-right: 10px;
@@ -198,18 +197,22 @@ box-shadow: 2px 2px 10px 1px rgba(210, 210, 210, 0.3);
     margin: 0 -25px;
     flex-wrap: wrap;
 }
-.investor-section .blog-type{
+
+.investor-section .blog-type {
     margin-bottom: -20px;
 }
-.investor-section .blog-type .blog-type-wrap{
+
+.investor-section .blog-type .blog-type-wrap {
     margin-bottom: 20px;
 }
+
 .investor-section .blog-type .blog-type-wrap,
 .blog-section .blog-type .blog-type-wrap {
     flex: 0 0 50%;
     max-width: 50%;
     padding: 0 25px;
 }
+
 /* .investor-section .blogs .blog-type .blog-type-wrap{
     flex: 0 0 100%;
     max-width: 100%;
@@ -268,29 +271,31 @@ box-shadow: 2px 2px 10px 1px rgba(210, 210, 210, 0.3);
 
 .investor-section .blog-type .blog-type-wrap .blog-content .right-arrow img {
     width: 19px;
-transition: all 0.5s;
-}
-
-.investor-section  .blog-content a:hover .right-arrow img,
-.blog-section  .blog-content a:hover .right-arrow img{
     transition: all 0.5s;
 }
 
-.investor-section  .blog-content a:hover .right-arrow ,
-.blog-section  .blog-content a:hover .right-arrow {
-transition: all 0.5s;
+.investor-section .blog-content a:hover .right-arrow img,
+.blog-section .blog-content a:hover .right-arrow img {
+    transition: all 0.5s;
 }
-.investor-section  .blog-content a:hover .right-arrow img,
-.blog-section  .blog-content a:hover .right-arrow img {
+
+.investor-section .blog-content a:hover .right-arrow,
+.blog-section .blog-content a:hover .right-arrow {
+    transition: all 0.5s;
+}
+
+.investor-section .blog-content a:hover .right-arrow img,
+.blog-section .blog-content a:hover .right-arrow img {
     transform: translateX(5px);
     transition: all 0.5s;
 }
 
-.investor-section  .btn-wrap {
+.investor-section .btn-wrap {
     /* text-align: center; */
     margin-top: 30px;
 }
-.investor-section  .btn-wrap a{
+
+.investor-section .btn-wrap a {
     text-decoration: underline;
 }
 
@@ -402,6 +407,7 @@ transition: all 0.5s;
 .investor-section .content-heading i img {
     width: 20px;
 }
+
 .investor-section .content-heading:first-child i img.investor {
     width: 25px;
 }
@@ -463,7 +469,7 @@ transition: all 0.5s;
 }
 
 @media (max-width:1199px) {
-     .recommendtion-list .item-content-wrap {
+    .recommendtion-list .item-content-wrap {
         padding: 15px;
     }
 
@@ -473,11 +479,11 @@ transition: all 0.5s;
 }
 
 @media (max-width:1024px) {
-     .recommendtion-list .item {
+    .recommendtion-list .item {
         padding: 0 10px;
     }
 
-     .recommendtion-list {
+    .recommendtion-list {
         margin: 0 -10px;
     }
 
@@ -487,10 +493,11 @@ transition: all 0.5s;
 }
 
 @media (max-width:991px) {
-    .investor-section .btn-wrap{
+    .investor-section .btn-wrap {
         margin-top: 15px;
     }
-     .recommendtion-list .item {
+
+    .recommendtion-list .item {
         flex: 0 0 50%;
         max-width: 50%;
     }
@@ -505,12 +512,14 @@ transition: all 0.5s;
 }
 
 @media (max-width:767px) {
-    .investor-section .content-heading::after{
+    .investor-section .content-heading::after {
         height: 8px;
     }
-    .faq-section .faq-wrap .question::after{
+
+    .faq-section .faq-wrap .question::after {
         height: 8px;
     }
+
     .inner-page-banner-section .inner-banner-content h1 {
         font-size: 30px;
     }
@@ -562,7 +571,7 @@ transition: all 0.5s;
         margin-bottom: 15px;
     }
 
-     .recommendtion-list .content-wrap p {
+    .recommendtion-list .content-wrap p {
         font-size: 16px;
     }
 
@@ -582,20 +591,20 @@ transition: all 0.5s;
 }
 
 @media (max-width:575px) {
-    .investor-section .blog-type .blog-type-wrap .blog-content .contents a{
+    .investor-section .blog-type .blog-type-wrap .blog-content .contents a {
         font-size: 16px;
     }
-     .recommendtion-list .item {
+
+    .recommendtion-list .item {
         flex: 0 0 100%;
         max-width: 100%;
     }
 
-     .recommendtion-list {
+    .recommendtion-list {
         margin: 0;
     }
 
-     .recommendtion-list .item {
+    .recommendtion-list .item {
         padding: 0;
     }
 }
-

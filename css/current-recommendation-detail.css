@@ -1,5 +1,8 @@
 .company-heading-section { background-color: var(--black8); min-height: 150px; display: flex; align-items: center; position: relative; justify-content: start; }
 .company-heading-section .logo-wrap { position: absolute; left: 50%;padding: 15px; transform: translateX(-50%); height: 160px; width: 160px; border-radius: 50%; display: flex; align-items: center; justify-content: center; bottom: -48px; background: var(--white4); }
+.logo-wrap img{
+max-width: 100px;
+}
 .company-heading-section .back-btn { color: var(--white); font-size: 14px; }
 .company-heading-section .back-btn i { margin-right: 8px; }
 .company-detail-section { padding: 60px 0; background-color: var(--white4); }
