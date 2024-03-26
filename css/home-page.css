@@ -221,7 +221,10 @@
 .slick-prev::before, .slick-next::before {
     content: '';
 }
+.white-arrow .slick-arrow{
 
+    background-image: url(../images/right-arrow-white.svg) !important;
+}
 .slick-arrow {
     background-image: url(../images/right-arrow.svg) !important;
     height: 24px;
