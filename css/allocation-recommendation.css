@@ -81,6 +81,16 @@ width: 85px !important;
     max-width: 80px;
     width: 80px !important;
 }
+.table-outer .view a{
+    transition: all 0.5s;
+}
+.table-outer .view a svg path{
+    transition: all 0.5s;
+}
+.table-outer .view a:hover svg path{
+    fill: #3B3B3B;
+
+}
 .table-outer .exit-price{
     max-width: 115px;
     width: 115px !important;
