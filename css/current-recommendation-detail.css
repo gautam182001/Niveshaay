@@ -3,10 +3,9 @@
 .logo-wrap img{
 max-width: 100px;
 }
-.company-heading-section.inner-page-banner-section  .inner-banner-content{    display: flex;
-    justify-content: space-between;
-    align-items: center;}
-.company-heading-section .back-btn { color: var(--white); font-size: 14px; }
+.company-heading-section.inner-page-banner-section  .inner-banner-content h1{/* text-align: center; */max-width: 100%; /* padding: 0 60px; */margin-bottom: 0 !important;}
+.company-heading-section.inner-page-banner-section  .inner-banner-content{ position: relative;}
+.company-heading-section .back-btn { color: var(--white); font-size: 14px;margin-bottom: 10px; display: block; /* position: absolute;top: 50%;transform: translateY(-50%); */}
 .company-heading-section .back-btn i { margin-right: 8px; }
 .company-detail-section { padding: 60px 0; background-color: var(--white4); }
 .company-detail-section .company-detail-wrap { padding: 20px; background: var(--white); border: 1px solid var(--white3); box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.06); border-radius: 4px; }
