@@ -340,15 +340,15 @@ html.dark table.dataTable.cell-border>tbody>tr>td:first-child {
 }
 
 .table-outer .view {
-    max-width: 80px;
-    width: 80px !important;
-    min-width: 80px;
+    max-width: 65px;
+    width: 65px !important;
+    min-width: 65px;
 }
 
 .table-outer .recommendation {
-    max-width: 178px;
-    width: 178px !important;
-    min-width: 178px;
+    max-width: 185px;
+    width: 185px !important;
+    min-width: 185px;
 }
 .table-outer .allocation {
     max-width: 120px;
