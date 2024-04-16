@@ -16,7 +16,7 @@ max-width: 100px;
 .company-detail-section .company-detail-wrap .financial-year-detail .financial-year-content .table-wrapper { overflow: auto; }
 .company-detail-section .company-detail-wrap .financial-year-detail .financial-year-heading::after { position: absolute; background-image: url(../images/down-arrow.svg); background-size: contain; background-repeat: no-repeat; height: 10px; width: 18px; right: 0; top: 10px; content: ""; transition: all 0.5s; }
 .company-detail-section .company-detail-wrap .financial-year-detail.open .financial-year-heading::after { transform: rotate(180deg); }
-.company-detail-section .table th { border-color: transparent; background-color: var(--white7); font-size: 14px; font-weight: 300; white-space: nowrap; padding: 20px; }
+.company-detail-section .table th { background-color: var(--white7); font-size: 14px; font-weight: 300; white-space: nowrap; padding: 20px; }
 .company-detail-section .table td { padding: 20px; }
 .company-detail-section .table td a { color: var(--blue); text-decoration: underline; transition: all 0.5s; }
 .company-detail-section .table td a:hover { text-decoration: none; }

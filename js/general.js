@@ -823,6 +823,7 @@ jQuery(document).ready(function () {
     });
   }
 
+
   $(".switch").click(function () {
     $(".company-detail-wrap").toggleClass("toggle");
   });
