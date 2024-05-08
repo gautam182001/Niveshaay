@@ -823,7 +823,6 @@ jQuery(document).ready(function () {
     });
   }
 
-
   $(".switch").click(function () {
     $(".company-detail-wrap").toggleClass("toggle");
   });
@@ -963,3 +962,16 @@ jQuery(function ($) {
     }
   });
 });
+
+
+var e = $(".banner-section"),
+  n = window.innerWidth / 4,
+  o = window.innerHeight / 4;
+e.mousemove(function (e) {
+  var i = e.clientX / n,
+    t = e.clientY / o;
+  $(this)
+    .find(".move-image img")
+    .css("transform", "translate3d(-" + i + "%, -" + t + "%, 0)");
+})
+
